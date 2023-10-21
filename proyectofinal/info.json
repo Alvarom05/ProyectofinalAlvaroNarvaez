@@ -1,0 +1,101 @@
+[
+    {
+        "info": "Soy Microprocesador Ryzen 5",
+        "id": 2,
+        "nombre": "Ryzen 5",
+        "categoria": "Microprocesadores",
+        "stock": 2,
+        "precio": 50000,
+        "rutaImagen": "Ryzen5.jpg"
+    },
+    {
+        "info": "Soy Microprocesador Ryzen 7",
+        "id": 5,
+        "nombre": "Ryzen 7",
+        "categoria": "Microprocesadores",
+        "stock": 1,
+        "precio": 95000,
+        "rutaImagen": "Ryzen7.jpg"
+    },
+    {
+        "info": "Soy Motherboard B450",
+        "id": 6,
+        "nombre": "Mother B450",
+        "categoria": "Motherboards",
+        "stock": 1,
+        "precio": 55000,
+        "rutaImagen": "B450.png"
+    },
+    {
+        "info": "Soy Motherboard A520",
+        "id": 6,
+        "nombre": "Mother A520",
+        "categoria": "Motherboards",
+        "stock": 1,
+        "precio": 35000,
+        "rutaImagen": "A520.jpg"
+    },
+    {
+        "info": "Soy Memoria Ram 8GB",
+        "id": 4,
+        "nombre": "Ram 8GB",
+        "categoria": "Memorias",
+        "stock": 4,
+        "precio": 15000,
+        "rutaImagen": "memoria-ram-8gb.jpg"
+    },
+    {
+        "info": "Soy Memoria Ram 16GB",
+        "id": 3,
+        "nombre": "Ram 16GB",
+        "categoria": "Memorias",
+        "stock": 2,
+        "precio": 25000,
+        "rutaImagen": "Ram 16GB.jpg"
+    },
+    {
+        "info": "Soy Disco SSD 240GB",
+        "id": 9,
+        "nombre": "SSD 240GB",
+        "categoria": "Discos SSD",
+        "stock": 6,
+        "precio": 23000,
+        "rutaImagen": "SSD240GB.jpg"
+    },
+    {
+        "info": "Soy Disco SSD 480GB",
+        "id": 8,
+        "nombre": "SSD 480GB",
+        "categoria": "Discos SSD",
+        "stock": 6,
+        "precio": 38000,
+        "rutaImagen": "SSD480GB.jpg"
+    },
+    {
+        "info": "Soy Disco SSD 1TB",
+        "id": 10,
+        "nombre": "SSD 1TB",
+        "categoria": "Discos SSD",
+        "stock": 1,
+        "precio": 65000,
+        "rutaImagen": "SSD1TB.jpg"
+    },
+    {
+        "info": "Soy Gabinete Gamer",
+        "id": 8,
+        "nombre": "Gabinete Gamer",
+        "categoria": "Gabinetes",
+        "stock": 2,
+        "precio": 25000,
+        "rutaImagen": "GabGamer.jpg"
+    },
+    {
+        "info": "Soy Gabinete Oficina",
+        "id": 11,
+        "nombre": "Gabinete Oficina",
+        "categoria": "Gabinetes",
+        "stock": 1,
+        "precio": 12500,
+        "rutaImagen": "Gabofi.jpg"
+    }
+]

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Guarito Hard tu tienda online líder en venta de Hardware. Comprá componentes, PC Armadas y mucho más al mejor precio, calidad y servicio de Argentina.">
+    <meta name="keywords" content="PC Armadas, Hardware, Gamer, Diseño, Arquitectura, Argentina, Buenos Aires, CABA">
+    <meta name="author" content="Alvaro Narvaez">
+    <meta name="copyright" content="GuaritoHard">
+    <meta property="og:title" content="Guarito Hard">
+    <meta property="og:description" content="Tu tienda líder para compra online de Hardware">
+    <meta property="og:site_name" content="GuaritoHard">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="GuaritoHard Tienda de Hardware, PC, Accesorios">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>Inicio | Guarito Hard</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="body">
+    <header>
+        <div class="titulos1">
+            <div class="tituloprincipal">
+                <div class="guarito">
+                    <div>
+                        <img src="./assets/img/Guarito1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1><span>GUARITO HARD</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="search">
+                <div>
+                    <input type="text" placeholder="buscar" required>
+                </div>
+                <div class="login">
+                    <a href="">Login</a>
+                </div>
+                <div class="carrito">
+                    <img src="./assets/img/carrito.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="barra">
+            <img src="./assets/img/Barra.png" alt="">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./pages/pc-armadas.html">PC Armadas</a></li>
+                <li><a href="./pages/hardware.html">Hardware</a></li>
+                <li><a href="./pages/monitores.html">Monitores</a></li>
+                <li><a href="./pages/conectividad.html">Conectividad</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="grid">
+            <div class="contenedor2">
+                <div class="marcas">
+                    <h2 class="marcas1">LOS MEJORES COMPONENTES</h2>
+                </div>
+            </div>
+            <div>
+                <ul class="lista" id="component-list">
+                    <li>
+                        <input type="checkbox" id="ryzen5" data-precio="50000">
+                        <label for="ryzen5">Microprocesador Ryzen 5 - $50,000</label>
+                        <img src="./assets/img/Ryzen5.png" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ryzen7" data-precio="95000">
+                        <label for="ryzen7">Microprocesador Ryzen 7 - $95,000</label>
+                        <img src="./assets/img/Ryzen7.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="motherboardB450" data-precio="35000">
+                        <label for="motherboardB450">Motherboard B450 - $35,000</label>
+                        <img src="./assets/img/B450.png" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="motherboardA520" data-precio="55000">
+                        <label for="motherboardA520">Motherboard A520 - $55,000</label>
+                        <img src="./assets/img/A520.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="memoriaRam8GB" data-precio="15000">
+                        <label for="memoriaRam8GB">Memoria Ram 8GB - $15,000</label>
+                        <img src="./assets/img/memoria-ram-8gb.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="memoriaRam16GB" data-precio="25000">
+                        <label for="memoriaRam16GB">Memoria Ram 16GB - $25,000</label>
+                        <img src="./assets/img/Ram 16GB.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="discoSSD240GB" data-precio="23000">
+                        <label for="discoSSD240GB"> Disco SSD 240GB - $23,000</label>
+                        <img src="./assets/img/SSD240GB.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="discoSSD480GB" data-precio="38000">
+                        <label for="discoSSD480GB"> Disco SSD 480GB - $38,000</label>
+                        <img src="./assets/img/SSD480GB.jpg" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="gabineteGamer" data-precio="25000">
+                        <label for="gabineteGamer"> Gabinete Gamer - $25,000</label>
+                        <img src="./assets/img/GabGamer.png" alt="">
+                    </li>
+                    <li>
+                        <input type="checkbox" id="gabineteComun" data-precio="12500">
+                        <label for="gabineteComun"> Gabinete Comun - $12,500</label>
+                        <img src="./assets/img/Gabofi.png" alt="">
+                    </li>
+                </ul>
+                <button id="calcular-precio">Calcular Precio Total</button>
+                <p>Total: <span id="total-precio">0</span></p>
+            </div>
+            <div class="contenedor3">
+                <img src="./assets/img/Guarito2.jpg" alt="">
+                <h2>Guarito te ayuda a armar tu PC</h2>
+                <img src="./assets/img/click aqui rojo.png" alt="">
+            </div>
+        </section>
+        <div class="top">
+            <a href="#top">IR ARRIBA</a>
+        </div>
+        <div class="barra">
+            <img src="./assets/img/Barra.png" alt="">
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <img src="./assets/img/reloj.png" alt="">
+            <p>Horarios</p>
+            <p>Lunes a Vierves 10-17Hrs</p>
+            <p>Sábados 10-14Hrs</p>
+        </div>
+        <div>
+            <img src="./assets/img/Posicion.png" alt="">
+            <p>Galerías Jardín</p>
+            <p>Florida 537, CABA</p>
+        </div>
+        <div>
+            <p>Recibí Nuestras OFERTAS</p>
+            <img src="./assets/img/email.png" alt="">
+            <p><input type="text" placeholder="mail" required></p>
+        </div>
+        <div>
+            <p>Seguinos en NUESTRAS REDES</p>
+            <img src="./assets/img/facebook.png" alt="">
+            <img src="./assets/img/gorjeo.png" alt="">
+            <img src="./assets/img/instagram.png" alt="">
+            <img src="./assets/img/tik-tok.png" alt="">
+            <img src="./assets/img/Twich.png" alt="">
+        </div>
+    </footer>
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
